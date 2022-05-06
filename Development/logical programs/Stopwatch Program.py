@@ -6,7 +6,7 @@ def time_convert(sec):
     hours = sec // 60
     mins = mins % 60
     
-    print("TIme Lapsed = {0}:{1}:{2}".format(int(hours),int(mins),int(sec)))
+   print("TIme Lapsed = {0}:{1}:{2}".format(int(hours),int(mins),int(sec)))
     
 input("Press Enter to Start")
 start_time = time.time()
