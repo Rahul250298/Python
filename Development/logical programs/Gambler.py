@@ -10,7 +10,7 @@ while (stake>0 and stake<goal):
     if gamble==0:
         stake-=1
         loss+=1
-    else:
+     else:
         stake+=1
         win+=1
 
